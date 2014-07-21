@@ -1,0 +1,17 @@
+---
+title: "CodeBook"
+author: "Yigit Ozan Berk"
+date: "21 Jul 2014"
+output: html_document
+---
+
+run_analysis.R firstly gathers the data sets from the folders "./test" and "./train" as the data is 
+separated into two subsets for testing and training. Then, data is binded into one data frame.
+
+The necessary measurements from the data is the mean and standart deviation for each measurement. The
+required 73 columns are selected from the data set and binded with corresponding subject IDs and 
+activity labels.
+
+Lastly, data is cast into an aggregation reflecting average values for each measurement for activities
+and subjects.
+
